@@ -1,7 +1,6 @@
 export default function Operacion (n) {
 
     var res = calcular();
-    console.log(res);
     return (res);
 
     function calcular(){
@@ -70,7 +69,6 @@ export default function Operacion (n) {
         var fibbonaci = serie[serie.length-1]
 
         var resultado = triangular - numeroPrimo - fibbonaci;
-        console.log(resultado);
         return (resultado);
 
     }
