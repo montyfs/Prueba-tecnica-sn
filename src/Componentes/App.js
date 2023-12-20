@@ -11,12 +11,12 @@ function App () {
     const limpiar = () => {setEntrada(''); setResultado('');}
     
     const calcular = () => {
-        if(entrada !=='' && entrada>=0){
+        if(entrada !=='' && entrada>0){
             var resultado = Operacion(entrada);
             setResultado(resultado);
         }
         else{
-            alert("Solo se aceptan números enteros positivos, por favor intente de nuevo.");
+            alert("Solo se aceptan números enteros positivos mayores a 0, por favor intente de nuevo.");
         }
     }
 
